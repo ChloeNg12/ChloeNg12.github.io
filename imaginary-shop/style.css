@@ -121,6 +121,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   text-align: center;
   gap: 40px;
 }
@@ -147,7 +148,7 @@ a {
   /* font-weight: bold; */
 }
 
-.menu-btn {
+.hero-content__btn {
   background-color: orange;
   border-radius: 30px;
   padding: 20px;
@@ -536,7 +537,7 @@ textarea {
     padding: 0 20px;
   }
 
-  .menu-btn {
+  .hero-content__btn {
     min-width: 210px;
   }
 
