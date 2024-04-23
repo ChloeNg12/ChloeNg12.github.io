@@ -14,7 +14,7 @@
     <header class="header">
       <nav class="header__nav">
         <div class="header__logo">
-          <p>🍜</p>
+          <h1 class="icon">🍜</h1>
           <h1>Shoya Ramen</h1>
         </div>
         <ul class="header__links">
@@ -36,7 +36,7 @@
     <main class="home-main">
       <section class="hero">
         <div class="hero__image">
-          <img src="images/banner.jpg" alt="banner image" />
+          <img src="images/banner.jpg" alt="ramen banner" />
         </div>
         <div class="hero__content">
           <div class="hero-content__text">
@@ -51,16 +51,18 @@
             <p>Visit us: Ratapihantie 13, 00520 Helsinki</p>
           </div>
 
-          <a href="menu.html" class="hero-content__link">
-            <button class="menu-btn">Menu</button>
-          </a>
+          <div class="hero-content__btn">
+            <button class="menu-btn">
+              <a href="menu.html" class="menu-btn__link">Menu</a>
+            </button>
+          </div>
         </div>
       </section>
 
       <section class="about-us" id="about-us">
         <div class="about-us__content">
           <h1 class="about-us-title">About us</h1>
-          <p class="about-us-subtitle">わたしたちについて</p>
+          <h2 class="about-us-subtitle">わたしたちについて</h2>
           <p class="about-us-text">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto
             accusantium, ipsam sint quas dolorem enim nisi sit neque aut commodi
@@ -79,13 +81,13 @@
           </p>
         </div>
         <figure class="about-us__image">
-          <img src="images/about-us.jpg" alt="about us image" />
+          <img src="images/about-us.jpg" alt="chef cooking in kitchen" />
         </figure>
       </section>
 
       <section class="specialty">
-        <h2 class="specialty-title">Shoya's Specialty</h2>
-        <p class="specialty-subtitle">スペシャリテ</p>
+        <h1 class="specialty-title">Shoya's Specialty</h1>
+        <h2 class="specialty-subtitle">スペシャリテ</h2>
 
         <div class="specialty__container">
           <div class="specialty-card">
@@ -133,9 +135,10 @@
           Get monthly offers <br />
           to your inbox
         </h2>
-        <p>Sign up for the Shoya newsletter</p>
+        <h3>Sign up for the Shoya newsletter</h3>
 
         <form class="newsletter__form">
+          <label class="offscreen">Email</label>
           <input type="text" placeholder="Enter your email address" />
           <button>Subscribe</button>
         </form>
