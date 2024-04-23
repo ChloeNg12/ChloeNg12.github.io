@@ -424,7 +424,8 @@ textarea {
 .submit-btn {
   background-color: orange;
   color: white;
-  text-shadow: 1px 1px 1px #000000;
+    text-shadow: 1px 2px 4px #000000;
+  font-family: "Times New Roman", Times, serif;
   font-weight: bold;
   padding: 12px 20px;
   border: none;
